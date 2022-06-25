@@ -1,0 +1,46 @@
+.group-buttons {
+  &__list {
+    flex-direction: column;
+    gap: 30px;
+    margin: 15px auto 0;
+    padding: 0 15px;
+    max-width: 100%;
+
+    &.btn-lg {
+      width: 100%;
+    }
+
+    &.btn-sm {
+      width: 350px;
+    }
+  }
+
+  &__item {
+    background: map-get(map-get($color-group, 'default-secondary'), 'medium');
+    border-radius: 30px;
+    text-align: center;
+    width: 100%;
+
+    &:hover {
+      background: map-get(map-get($color-group, 'default-primary'), 'medium');
+      cursor: pointer;
+    }
+  }
+
+  &__link {
+    color: map-get(map-get($color-group, 'default-primary'), 'dark');
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .2px;
+    line-height: 18px;
+    padding: 6px 0;
+    width: 100%;
+
+    &:hover {
+      color: map-get(map-get($color-group, 'default-primary'), 'dark');
+      text-decoration: none;
+    }
+  }
+}
