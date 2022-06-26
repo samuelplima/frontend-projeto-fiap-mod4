@@ -1,0 +1,37 @@
+/* VARIABLES COLOR GROUP */
+$color-group: (
+  default-primary: (
+    dark: #04445F, // map-get(map-get($color-group, 'default-primary'), 'dark');
+    medium: #1999B4, // map-get(map-get($color-group, 'default-primary'), 'medium');
+    light: #A1E2E7, // map-get(map-get($color-group, 'default-primary'), 'light');
+    baby: #D4F2F4, // map-get(map-get($color-group, 'default-primary'), 'baby');
+  ),
+  default-secondary: (
+    dark: #BD2A80, // map-get(map-get($color-group, 'default-secondary'), 'dark');
+    medium: #E27EBA, // map-get(map-get($color-group, 'default-secondary'), 'medium');
+    light: #EEB4D7, // map-get(map-get($color-group, 'default-secondary'), 'light');
+    baby: #F6D6E9, // map-get(map-get($color-group, 'default-secondary'), 'baby');
+  ),
+  default-success: (
+    dark: #2ABD65, // map-get(map-get($color-group, 'default-success'), 'dark');
+    medium: #7EE294, // map-get(map-get($color-group, 'default-success'), 'medium');
+    light: #B4EEBA, // map-get(map-get($color-group, 'default-success'), 'light');
+    baby: #D6F6D9, // map-get(map-get($color-group, 'default-success'), 'baby');
+  ),
+  default-danger: (
+    dark: #BD2A2A, // map-get(map-get($color-group, 'default-danger'), 'dark');
+    medium: #E27E7E, // map-get(map-get($color-group, 'default-danger'), 'medium');
+    light: #EEB4B4, // map-get(map-get($color-group, 'default-danger'), 'light');
+    baby: #F6D6D6, // map-get(map-get($color-group, 'default-danger'), 'baby');
+  ),
+  default-warning: (
+    dark: #E1CA00, // map-get(map-get($color-group, 'default-warning'), 'dark');
+    medium: #F4E455, // map-get(map-get($color-group, 'default-warning'), 'medium');
+    light: #F4EA8D, // map-get(map-get($color-group, 'default-warning'), 'light');
+    baby: #FEFAD0, // map-get(map-get($color-group, 'default-warning'), 'baby');
+  ),
+);
+
+/* VARIABLES COLOR BASIC */
+$white: #ffffff;
+$black: #000000;

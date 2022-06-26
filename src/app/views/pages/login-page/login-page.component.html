@@ -1,0 +1,18 @@
+<h1>
+  Bem Vindo(a) ao Nosso Portal Clínica Embelleze
+</h1>
+
+<h2>Para que possamos agendar um horário</h2>
+
+<br />
+
+<h3>Faça o login</h3>
+<form action="" class="form-group form-group--column">
+  <div class="form-group__item" *ngFor="let field of fields">
+    <app-form-fields [field]="field"></app-form-fields>
+  </div>
+</form>
+<app-buttons class="row group-buttons__list btn-sm" [links]="login"></app-buttons>
+
+<h3>Ou faça seu cadastro</h3>
+<app-buttons class="row group-buttons__list btn-sm" [links]="registration"></app-buttons>

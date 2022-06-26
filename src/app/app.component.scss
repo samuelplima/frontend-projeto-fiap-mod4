@@ -1,0 +1,53 @@
+.header,
+.footer {
+  &__container {
+    height: 100%;
+  }
+
+  &__img-logo {
+    height: 80%;
+  }
+
+  &__link {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }
+}
+
+.row {
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.body__container--row {
+  margin: 30px auto;
+}
+
+.body__container {
+  min-height: calc(100% - 80px);
+  padding-top: 100px;
+}
+
+.form-control {
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.line-divider {
+  position: relative;
+  background-color: map-get(map-get($color-group, 'default-secondary'), 'dark');
+  height: 100%;
+  width: 1px;
+  display: block;
+  block-size: auto;
+
+  @include media-breakpoint-down(md) {
+    height: 1px;
+    width: 100%;
+  }
+}

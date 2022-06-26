@@ -1,0 +1,25 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 15px;
+  margin: 30px auto;
+
+  @include media-breakpoint-up(md) {
+    &--row {
+      flex-direction: row;
+    }
+  }
+
+  &--row {
+    .form-group__item {
+      max-width: 100%;
+      width: 45%;
+    }
+  }
+
+  &--column {
+    max-width: 100%;
+    width: 350px;
+  }
+}

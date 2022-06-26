@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+/* Bootstrap */
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/* Scss rulers default */
+@import "./assets/scss/variables";
+@import "./assets/scss/tagstyle";
+
+/* Styele Default */
+@import "./app/app.component";
+
+/* Styele Components */
+@import "./app/views/components/buttons/buttons.component";
+@import "./app/views/components/form-fields/form-fields.component";
+
+/* Styele Components Pages */
+@import "./app/views/pages/login-page/login-page.component";
+@import "./app/views/pages/registration-page/registration-page.component";
