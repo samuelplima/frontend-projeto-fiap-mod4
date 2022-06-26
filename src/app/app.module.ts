@@ -7,6 +7,8 @@ import { LoginPageComponent } from './views/pages/login-page/login-page.componen
 import { ButtonsComponent } from './views/components/buttons/buttons.component';
 import { RegistrationPageComponent } from './views/pages/registration-page/registration-page.component';
 import { FormFieldsComponent } from './views/components/form-fields/form-fields.component';
+import { HomepageComponent } from './views/pages/homepage/homepage.component';
+import { HeaderComponent } from './views/content/header/header.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { FormFieldsComponent } from './views/components/form-fields/form-fields.
     LoginPageComponent,
     ButtonsComponent,
     RegistrationPageComponent,
-    FormFieldsComponent
+    FormFieldsComponent,
+    HomepageComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

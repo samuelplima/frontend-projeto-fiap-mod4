@@ -4,11 +4,10 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-login-page',
   templateUrl: './login-page.component.html'
 })
-
 export class LoginPageComponent implements OnInit {
 
   public login: Array<{ textLink: string, href: string }> = [
-    { textLink: 'Login', href: '/' }
+    { textLink: 'Login', href: '/home' }
   ];
 
   public registration: Array<{ textLink: string, href: string }> = [
