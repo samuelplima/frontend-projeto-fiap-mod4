@@ -1,1 +1,18 @@
-<p>registration-page works!</p>
+<h1>
+  Faça seu cadastro e facilite o agendamento de suas consultas
+</h1>
+
+<form action="" class="form-group form-group--row">
+  <div class="form-group__item form-group__user-data">
+    <div class="form-group__user-data--item" *ngFor="let field of userRegistration">
+      <app-form-fields [field]="field"></app-form-fields>
+    </div>
+  </div>
+  <div class="line-divider"></div>
+  <div class="form-group__item form-group__address-data">
+    <div class="form-group____address-data--item" *ngFor="let field of addressRegistration">
+      <app-form-fields [field]="field"></app-form-fields>
+    </div>
+  </div>
+</form>
+<app-buttons class="row group-buttons__list btn-sm" [links]="registration"></app-buttons>

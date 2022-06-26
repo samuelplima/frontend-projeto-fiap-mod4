@@ -11,7 +11,15 @@ html, body {
 }
 
 body {
-  background: url('../images/background.png') repeat center/auto 100%;
+  &::before {
+    background: url('../images/background.png') repeat center/auto 100%;
+    content: "";
+    height: 100%;
+    opacity: .3;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+  }
 }
 
 header {
@@ -21,6 +29,7 @@ header {
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 9;
 }
 
 footer {
