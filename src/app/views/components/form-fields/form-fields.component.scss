@@ -5,13 +5,11 @@
   gap: 15px;
   margin: 30px auto;
 
-  @include media-breakpoint-up(md) {
-    &--row {
+  &--row {
+    @include media-breakpoint-up(md) {
       flex-direction: row;
     }
-  }
 
-  &--row {
     .form-group__item {
       max-width: 100%;
       width: 45%;
