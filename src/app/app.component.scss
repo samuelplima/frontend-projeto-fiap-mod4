@@ -5,37 +5,6 @@
   text-align: center;
 }
 
-.header,
-.footer {
-  &__container {
-    height: 100%;
-  }
-
-  &__row {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
-
-.header {
-  &__logo,
-  &__my-account {
-    height: 80%;
-    width: auto;
-
-    &--link {
-      align-items: center;
-      display: flex;
-      justify-content: center;
-      height: 100%;
-    }
-
-    &--img {
-      height: 100%;
-    }
-  }
-}
-
 .body__container {
   min-height: calc(100% - 50px);
   padding-top: 100px;

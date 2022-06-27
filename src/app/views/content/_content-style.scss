@@ -1,0 +1,11 @@
+.header,
+.footer {
+  &__container {
+    height: 100%;
+  }
+
+  &__row {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

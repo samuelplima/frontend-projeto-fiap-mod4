@@ -1,0 +1,36 @@
+.header {
+  &__logo,
+  &__menu,
+  &__my-account {
+    height: 80%;
+    width: auto;
+
+    &--link {
+      align-items: center;
+      display: flex;
+      height: 100%;
+      gap: 5px;
+      justify-content: center;
+    }
+
+    &--img {
+      height: 100%;
+    }
+
+    &--text {
+      color: map-get(map-get($color-group, 'default-primary'), 'baby');
+      text-align: left;
+    }
+
+    &--icon {
+      color: map-get(map-get($color-group, 'default-primary'), 'baby');
+      font-size: 60px;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}

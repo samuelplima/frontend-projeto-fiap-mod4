@@ -6,10 +6,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegistrationPageComponent implements OnInit {
 
-  public registration: Array<{ textLink: string, href: string }> = [
-    { textLink: 'Finalizar Cadastro', href: '/' }
-  ];
-
   public userRegistration: Array<{ type: string, name: string, placeholder: string, textLabel: string }> = [
     { type: 'text', name: 'registration-page__fullname', placeholder: 'Nome Completo', textLabel: 'Nome Completo' },
     { type: 'date', name: 'registration-page__birthdate', placeholder: 'Data de Nascimento', textLabel: 'Data de Nascimento' },
@@ -28,6 +24,10 @@ export class RegistrationPageComponent implements OnInit {
     { type: 'text', name: 'registration-page__complement', placeholder: 'Complemento', textLabel: 'Complemento' },
     { type: 'text', name: 'registration-page__city', placeholder: 'Cidade', textLabel: 'Cidade' },
     { type: 'text', name: 'registration-page__state', placeholder: 'Estado', textLabel: 'Estado' },
+  ];
+
+  public registration: Array<{ textLink: string, href: string }> = [
+    { textLink: 'Finalizar Cadastro', href: '/' }
   ];
 
   constructor() { }

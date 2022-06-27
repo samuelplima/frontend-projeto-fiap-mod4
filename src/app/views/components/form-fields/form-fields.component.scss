@@ -20,4 +20,10 @@
     max-width: 100%;
     width: 350px;
   }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
 }

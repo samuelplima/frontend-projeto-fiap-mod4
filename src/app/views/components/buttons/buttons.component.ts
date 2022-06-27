@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ButtonsComponent implements OnInit {
 
-  @Input() links: any;
+  @Input() buttons: any;
 
   constructor() { }
 

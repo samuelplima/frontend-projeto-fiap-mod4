@@ -9,6 +9,11 @@ import { RegistrationPageComponent } from './views/pages/registration-page/regis
 import { FormFieldsComponent } from './views/components/form-fields/form-fields.component';
 import { HomepageComponent } from './views/pages/homepage/homepage.component';
 import { HeaderComponent } from './views/content/header/header.component';
+import { MyAccountComponent } from './views/pages/my-account/my-account.component';
+import { IconButtonComponent } from './views/components/icon-button/icon-button.component';
+import { AboutPageComponent } from './views/pages/about-page/about-page.component';
+import { ServicePageComponent } from './views/pages/service-page/service-page.component';
+import { SchedulePageComponent } from './views/pages/schedule-page/schedule-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { HeaderComponent } from './views/content/header/header.component';
     RegistrationPageComponent,
     FormFieldsComponent,
     HomepageComponent,
-    HeaderComponent
+    HeaderComponent,
+    MyAccountComponent,
+    IconButtonComponent,
+    AboutPageComponent,
+    ServicePageComponent,
+    SchedulePageComponent
   ],
   imports: [
     BrowserModule,

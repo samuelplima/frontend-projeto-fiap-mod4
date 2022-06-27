@@ -73,3 +73,8 @@ label {
   color: map-get(map-get($color-group, 'default-primary'), 'dark');
   font-weight: bold;
 }
+
+a,
+a:hover {
+  text-decoration: none;
+}

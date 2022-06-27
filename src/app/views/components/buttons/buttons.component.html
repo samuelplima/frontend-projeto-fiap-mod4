@@ -1,3 +1,5 @@
-<div class="group-buttons__item" *ngFor="let link of links">
-  <a class="group-buttons__link" routerLink="{{ link.href }}">{{ link.textLink }}</a>
+<div class="group-buttons__item" *ngFor="let button of buttons">
+  <a class="group-buttons__link" routerLink="{{ button.href }}">
+    {{ button.textLink }}
+  </a>
 </div>
