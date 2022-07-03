@@ -9,7 +9,7 @@ import { SchedulePageComponent } from './views/pages/schedule-page/schedule-page
 import { ServicePageComponent } from './views/pages/service-page/service-page.component';
 
 const routes: Routes = [
-  { path: "", component: LoginPageComponent},
+  { path: "", component: LoginPageComponent },
   { path: "registration", component: RegistrationPageComponent },
   { path: "home", component: HomepageComponent },
   { path: "my-account", component: MyAccountComponent },

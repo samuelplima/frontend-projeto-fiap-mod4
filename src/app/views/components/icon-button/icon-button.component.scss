@@ -1,0 +1,8 @@
+[class *= return-page] {
+  color: map-get(map-get($color-group, 'default-primary'), 'dark');
+  font-size: 50px;
+
+  &:hover {
+    color: map-get(map-get($color-group, 'default-primary'), 'medium');
+  }
+}

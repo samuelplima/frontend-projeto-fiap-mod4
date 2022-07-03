@@ -1,0 +1,40 @@
+.grid {
+  &-list {
+    align-items: center;
+    gap: 30px 15px;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  &-item {
+    border-radius: 10px;
+    min-width: 100px;
+    max-width: 200px;
+    width: 30%;
+
+    &__link {
+      flex-direction: column;
+    }
+
+    &__image {
+      margin: 15px 15px 0;
+      height: 100px;
+
+      &--img {
+        height: 100%;
+        width: auto;
+      }
+    }
+
+    &__details {
+      margin: 0 15px 15px;
+      text-align: left;
+    }
+
+    &:hover {
+      background-color: $white;
+      box-shadow: 0px 0px 5px map-get(map-get($color-group, 'default-primary'), 'light');
+      transition: all 0.2s ease;
+    }
+  }
+}

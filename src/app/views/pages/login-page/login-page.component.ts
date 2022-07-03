@@ -2,9 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-login-page',
-  templateUrl: './login-page.component.html'
+  templateUrl: './login-page.component.html',
 })
 export class LoginPageComponent implements OnInit {
+
+  public namePage: string = 'login-page';
 
   public login: Array<{ textLink: string, href: string }> = [
     { textLink: 'Login', href: '/home' }

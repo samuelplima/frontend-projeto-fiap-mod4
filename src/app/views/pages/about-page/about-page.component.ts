@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutPageComponent implements OnInit {
 
+  public nameContent: string = "about-page__return-page";
+
+  public icon: { href: string, img: string } = {
+    href: '/home',
+    img: 'keyboard_arrow_left'
+  };
+
   constructor() { }
 
   ngOnInit(): void {

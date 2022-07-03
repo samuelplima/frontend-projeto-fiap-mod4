@@ -16,7 +16,7 @@
   }
 
   &__item {
-    background: map-get(map-get($color-group, 'default-secondary'), 'medium');
+    background: map-get(map-get($color-group, 'default-primary'), 'dark');
     border-radius: 30px;
     text-align: center;
     width: 100%;
@@ -28,7 +28,7 @@
   }
 
   &__link {
-    color: map-get(map-get($color-group, 'default-primary'), 'dark');
+    color: map-get(map-get($color-group, 'default-primary'), 'baby');
     cursor: pointer;
     display: block;
     font-size: 18px;
@@ -40,7 +40,7 @@
     width: 100%;
 
     &:hover {
-      color: map-get(map-get($color-group, 'default-primary'), 'dark');
+      color: map-get(map-get($color-group, 'default-primary'), 'baby');
       text-decoration: none;
     }
   }

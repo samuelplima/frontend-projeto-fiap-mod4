@@ -14,6 +14,7 @@ import { IconButtonComponent } from './views/components/icon-button/icon-button.
 import { AboutPageComponent } from './views/pages/about-page/about-page.component';
 import { ServicePageComponent } from './views/pages/service-page/service-page.component';
 import { SchedulePageComponent } from './views/pages/schedule-page/schedule-page.component';
+import { GridComponent } from './views/components/grid/grid.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SchedulePageComponent } from './views/pages/schedule-page/schedule-page
     IconButtonComponent,
     AboutPageComponent,
     ServicePageComponent,
-    SchedulePageComponent
+    SchedulePageComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule,

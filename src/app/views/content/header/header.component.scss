@@ -20,6 +20,7 @@
     &--text {
       color: map-get(map-get($color-group, 'default-primary'), 'baby');
       text-align: left;
+      white-space: pre-wrap;
     }
 
     &--icon {

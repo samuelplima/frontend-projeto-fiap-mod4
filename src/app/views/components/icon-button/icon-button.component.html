@@ -1,5 +1,4 @@
-<div class="group-buttons__item" *ngFor="let icon of icons">
-  <a class="group-buttons__link" routerLink="{{ icon.href }}">
-    <span class="material-icons icons">{{ icon.img }}</span>
-  </a>
-</div>
+<a routerLink="{{ icon.href }}" class="{{ nameContent }}--link">
+  <span class="material-icons-round {{ nameContent }}--icon">{{ icon.img }}</span>
+  <span *ngIf="icon.text" class="{{ nameContent }}--text">{{ icon.text }}</span>
+</a>

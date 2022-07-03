@@ -22,7 +22,7 @@
 
 .line-divider {
   position: relative;
-  background-color: map-get(map-get($color-group, 'default-secondary'), 'dark');
+  background-color: map-get(map-get($color-group, 'default-primary'), 'dark');
   height: 100%;
   width: 1px;
   display: block;

@@ -1,0 +1,14 @@
+<ul class="grid-list d-flex flex-wrap">
+  <li *ngFor="let item of items" class="grid-item">
+    <a href="{{ item.link }}" class="grid-item__link d-flex">
+      <div class="grid-item__image text-center">
+        <img src="{{ item.img }}" alt="{{ item.title }}" class="grid-item__image--img" />
+      </div>
+      <div class="grid-item__details">
+        <h3 class="grid-item__details--title text-left">{{ item.title }}</h3>
+        <br />
+        <p class="grid-item__details--description text-left">{{ item.description }}</p>
+      </div>
+    </a>
+  </li>
+</ul>
