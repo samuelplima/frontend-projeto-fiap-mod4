@@ -1,1 +1,16 @@
-<p>schedule-page works!</p>
+<h1>
+  Faça seu cadastro e facilite o agendamento de suas consultas
+</h1>
+
+<form action="" class="form-group form-group--row">
+  <div class="form-group__item form-group__user-data">
+    <div class="form-group__user-data--item" *ngFor="let field of scheduleHour">
+      <app-form-fields [field]="field"></app-form-fields>
+    </div>
+  </div>
+</form>
+
+<br />
+
+<app-buttons class="row group-buttons__list btn-sm" [buttons]="scheduled"></app-buttons>
+<app-icon-button class="{{ nameContent }}" [nameContent]="nameContent" [icon]="icon"></app-icon-button>

@@ -20,6 +20,10 @@
 @import "./app/views/components/grid/grid.component";
 
 /* Style Components Pages */
-@import "./app/views/pages/login-page/login-page.component";
-@import "./app/views/pages/registration-page/registration-page.component";
+@import "./app/views/pages/about-page/about-page.component";
 @import "./app/views/pages/homepage/homepage.component";
+@import "./app/views/pages/login-page/login-page.component";
+@import "./app/views/pages/my-account/my-account.component";
+@import "./app/views/pages/registration-page/registration-page.component";
+@import "./app/views/pages/schedule-page/schedule-page.component";
+@import "./app/views/pages/service-page/service-page.component";
